@@ -1,0 +1,121 @@
+2017/08/30 15:40:32 [error] 3688#4680: *1 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/phpinfo.php"
+2017/08/30 15:40:32 [error] 3688#4680: *1 CreateFile() "C:\nginx/html/error.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/phpinfo.php"
+2017/08/30 15:40:52 [error] 3688#4680: *1 CreateFile() "C:\nginx/html/phpinfo.php.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /phpinfo.php.html HTTP/1.1", host: "localhost:8080"
+2017/08/30 15:40:52 [error] 3688#4680: *1 CreateFile() "C:\nginx/html/error.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /phpinfo.php.html HTTP/1.1", host: "localhost:8080"
+2017/08/30 15:41:31 [error] 3688#4680: *1 CreateFile() "C:\nginx/html/index2334.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /index2334.html HTTP/1.1", host: "localhost:8080"
+2017/08/30 15:41:31 [error] 3688#4680: *1 CreateFile() "C:\nginx/html/error.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /index2334.html HTTP/1.1", host: "localhost:8080"
+2017/08/30 15:41:57 [error] 3688#4680: *1 CreateFile() "C:\nginx/html/index.hml" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /index.hml HTTP/1.1", host: "localhost:8080"
+2017/08/30 15:41:57 [error] 3688#4680: *1 CreateFile() "C:\nginx/html/error.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /index.hml HTTP/1.1", host: "localhost:8080"
+2017/08/30 20:21:42 [error] 3544#2992: *16 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\public\index.php on line 11" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2017/08/30 20:23:00 [error] 3544#2992: *16 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2017/08/30 20:24:09 [error] 3544#2992: *25 CreateFile() "C:/public/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2017/08/30 20:28:24 [error] 1892#2884: *1 CreateFile() "C:/public/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2017/08/30 20:29:37 [error] 1892#2884: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2017/08/30 20:31:24 [error] 1892#2884: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2017/08/30 20:32:39 [error] 1892#2884: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2017/08/30 20:34:58 [error] 1892#2884: *9 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2017/08/30 20:37:55 [error] 2708#3800: *15 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2017/08/30 20:40:22 [error] 5028#2036: *5 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2017/08/30 20:43:55 [error] 5028#2036: *9 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2017/08/30 20:45:35 [error] 5028#2036: *14 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2017/08/30 20:49:57 [error] 1864#884: *4 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2017/08/30 20:59:13 [error] 4504#3580: *36 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "localhost"
+2017/08/30 21:00:23 [error] 4504#3580: *36 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "localhost"
+2017/08/30 21:04:53 [error] 4504#3580: *43 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "localhost"
+2017/08/30 21:09:34 [error] 4504#3580: *60 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "localhost"
+2017/08/30 21:24:19 [error] 1228#4884: *1 CreateFile() "c:/public/index2.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /index2.html HTTP/1.1", host: "localhost"
+2017/08/30 21:33:09 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Array to string conversion in C:\public\test.php on line 12
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:17" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:33:09 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Array to string conversion in C:\public\test.php on line 12
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:17" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:33:35 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Array to string conversion in C:\public\test.php on line 11
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:33:36 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Array to string conversion in C:\public\test.php on line 11
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:33:37 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Array to string conversion in C:\public\test.php on line 11
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:33:37 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Array to string conversion in C:\public\test.php on line 11
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:33:37 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Array to string conversion in C:\public\test.php on line 11
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:34:02 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Array to string conversion in C:\public\test.php on line 11
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:34:02 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Array to string conversion in C:\public\test.php on line 11
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:34:02 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Array to string conversion in C:\public\test.php on line 11
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:34:03 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Array to string conversion in C:\public\test.php on line 11
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:34:03 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Array to string conversion in C:\public\test.php on line 11
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:34:11 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Undefined variable: result in C:\public\test.php on line 11
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:34:12 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Undefined variable: result in C:\public\test.php on line 11
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:34:12 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Undefined variable: result in C:\public\test.php on line 11
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:34:12 [error] 1228#4884: *34 FastCGI sent in stderr: "PHP Notice:  Undefined variable: result in C:\public\test.php on line 11
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. hello() C:\public\test.php:16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 21:43:33 [error] 1228#4884: *81 CreateFile() "c:/public/favicon.ico" failed (2: The system cannot find the file specified), client: 88.172.114.87, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "87.98.178.227", referrer: "http://87.98.178.227/"
+2017/08/30 22:30:20 [error] 1228#4884: *212 FastCGI sent in stderr: "PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\public\test.php on line 23
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. update() C:\public\test.php:32" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost", referrer: "http://localhost/test.php"
+2017/08/30 22:33:01 [error] 1228#4884: *220 FastCGI sent in stderr: "PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\public\test.php on line 23
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. update() C:\public\test.php:32" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost", referrer: "http://localhost/test.php"
+2017/08/30 22:44:23 [error] 1228#4884: *241 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected 'C' (T_STRING) in C:\public\test.php on line 24" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 22:53:14 [error] 1228#4884: *251 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected ')' in C:\public\test.php on line 16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 22:53:27 [error] 1228#4884: *251 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '}' in C:\public\test.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 22:53:29 [error] 1228#4884: *251 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '}' in C:\public\test.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 23:01:47 [error] 1228#4884: *270 FastCGI sent in stderr: "PHP Warning:  A non-numeric value encountered in C:\public\test.php on line 13
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. update() C:\public\test.php:54
+PHP   3. execInBackground() C:\public\test.php:40
+PHP Warning:  A non-numeric value encountered in C:\public\test.php on line 13
+PHP Stack trace:
+PHP   1. {main}() C:\public\test.php:0
+PHP   2. update() C:\public\test.php:54
+PHP   3. execInBackground() C:\public\test.php:40" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost", referrer: "http://localhost/test.php"
+2017/08/30 23:09:07 [error] 1228#4884: *286 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '.' in C:\public\test.php on line 13" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 23:32:44 [error] 1228#4884: *313 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost", referrer: "http://localhost/test.php"
+2017/08/30 23:34:29 [error] 1228#4884: *313 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 23:38:24 [error] 2464#3084: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9100", host: "localhost"
+2017/08/30 23:41:05 [error] 4484#3120: *1 CreateFile() "c:/public/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2017/08/30 23:43:12 [error] 4484#3120: *9 CreateFile() "c:/public/favicon.ico" failed (2: The system cannot find the file specified), client: 88.172.114.87, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "87.98.178.227", referrer: "http://87.98.178.227/test.php"
+2017/08/31 00:36:57 [error] 4484#3120: *33 CreateFile() "c:/public/favicon.ico" failed (2: The system cannot find the file specified), client: 88.172.114.87, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "87.98.178.227", referrer: "http://87.98.178.227/panel.php"
+2017/08/31 09:59:56 [error] 4484#3120: *52 CreateFile() "c:/public/favicon.ico" failed (2: The system cannot find the file specified), client: 88.172.114.87, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "87.98.178.227", referrer: "http://87.98.178.227/"
