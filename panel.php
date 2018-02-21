@@ -1,5 +1,9 @@
-Welcome on Cripsy server panel :
+Welcome on Cripsy server panel :<br/>
 
+La serveur est programmé pour redémarrer proprement toute les 10mns.<br/>
+
+Merci d'utiliser ces commandes qu'en cas d'urgence <br/>
+ou si après 15 mns (il faut laisser le temps au serveur de se lancer), rien ne s'est passé
    <form method="post">
        <input type="submit" name="test" id="test" value="Start server" style="margin-top:30px" /><br/>
       <input type="submit" name="stop" id="Stop" value="Stop Server" style="margin-top:30px"/><br/>
